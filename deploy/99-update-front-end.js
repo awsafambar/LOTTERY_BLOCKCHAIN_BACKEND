@@ -10,7 +10,7 @@ module.exports = async function () {
     if (process.env.UPDATE_FRONT_END) {
         console.log("updating FRONTEND")
         updateContractAddresses()
-        updateAbiFile
+        updateAbiFile()
     }
 }
 
