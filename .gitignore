@@ -14,6 +14,9 @@ typechain
 # don't push the environment vars!
 .env
 
+# don't push the frontend push deploy script for abi and address.
+
+
 # Built application files
 .DS*
 *.apk
